@@ -1,0 +1,269 @@
+{
+  "groups": [
+    {
+      "name": "zy.cache",
+      "type": "com.example.zystarter.CacheConfig.CacheProperties",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties"
+    },
+    {
+      "name": "zy.cache.pool",
+      "type": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig"
+    },
+    {
+      "name": "zy.cache.sentinel",
+      "type": "com.example.zystarter.CacheConfig.CacheSentinelConfig",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheSentinelConfig"
+    },
+    {
+      "name": "zy.db",
+      "type": "com.example.zystarter.DbConfig.DbProperties",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.pool",
+      "type": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zy.cache.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties"
+    },
+    {
+      "name": "zy.cache.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties"
+    },
+    {
+      "name": "zy.cache.pool.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "zy.cache.pool.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": 8
+    },
+    {
+      "name": "zy.cache.pool.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": 8
+    },
+    {
+      "name": "zy.cache.pool.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": -1
+    },
+    {
+      "name": "zy.cache.pool.min-evictable-idle-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": 60000
+    },
+    {
+      "name": "zy.cache.pool.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "zy.cache.pool.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "zy.cache.pool.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "zy.cache.pool.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "zy.cache.pool.time-between-eviction-runs",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CachePoolConfig",
+      "defaultValue": 30000
+    },
+    {
+      "name": "zy.cache.port",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties"
+    },
+    {
+      "name": "zy.cache.sentinel.master",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheSentinelConfig"
+    },
+    {
+      "name": "zy.cache.sentinel.nodes",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheSentinelConfig"
+    },
+    {
+      "name": "zy.cache.sentinel.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheSentinelConfig"
+    },
+    {
+      "name": "zy.cache.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "zy.cache.type",
+      "type": "com.example.zystarter.CacheConstants.CacheTypeEnum",
+      "sourceType": "com.example.zystarter.CacheConfig.CacheProperties"
+    },
+    {
+      "name": "zy.db.database",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.pool.connect-properties",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "zy.db.pool.filters",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "zy.db.pool.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "zy.db.pool.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "zy.db.pool.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "zy.db.pool.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 60000
+    },
+    {
+      "name": "zy.db.pool.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 300000
+    },
+    {
+      "name": "zy.db.pool.min-idel",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "zy.db.pool.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.db.pool.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.db.pool.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.db.pool.test-while-idel",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "zy.db.pool.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": 60000
+    },
+    {
+      "name": "zy.db.pool.type",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "zy.db.pool.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.db.pool.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties",
+      "defaultValue": "SELECT 1"
+    },
+    {
+      "name": "zy.db.port",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.type",
+      "type": "com.example.zystarter.DbConstants.DbTypeEnum",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.url-param",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.db.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    }
+  ],
+  "hints": []
+}
