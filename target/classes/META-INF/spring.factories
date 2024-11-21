@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   com.example.zystarter.DbConfig.DbAutoConfiguration,\
-  com.example.zystarter.CacheConfig.CacheAutoConfiguration
+  com.example.zystarter.CacheConfig.CacheAutoConfiguration,\
+  com.example.zystarter.FileUploadConfig.FileUpLoadAutoConfiguration

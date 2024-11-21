@@ -112,6 +112,22 @@
             <version>3.12.0</version>
         </dependency>
         <!--============================================缓存结束===========================================================-->
+
+        <!--============================================文件服务相关===========================================================-->
+        <!--fastDfs-->
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
+
+        <!--minio-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>8.5.4</version>
+        </dependency>
+        <!--============================================文件服务结束===========================================================-->
     </dependencies>
 
 </project>

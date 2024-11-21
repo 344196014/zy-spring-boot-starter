@@ -24,6 +24,16 @@
       "name": "zy.db.pool",
       "type": "com.example.zystarter.DbConfig.DbPoolProperties",
       "sourceType": "com.example.zystarter.DbConfig.DbPoolProperties"
+    },
+    {
+      "name": "zy.upload.fastdfs",
+      "type": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties"
+    },
+    {
+      "name": "zy.upload.minio",
+      "type": "com.example.zystarter.FileUploadConfig.MinioProperties",
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
     }
   ],
   "properties": [
@@ -263,6 +273,80 @@
       "name": "zy.db.username",
       "type": "java.lang.String",
       "sourceType": "com.example.zystarter.DbConfig.DbProperties"
+    },
+    {
+      "name": "zy.upload.fastdfs.charset",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "zy.upload.fastdfs.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "zy.upload.fastdfs.http-anti-steal-token",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.upload.fastdfs.http-secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "zy.upload.fastdfs.network-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "zy.upload.fastdfs.nginx-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "zy.upload.fastdfs.show-file",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zy.upload.fastdfs.tracker-http-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": 80
+    },
+    {
+      "name": "zy.upload.fastdfs.tracker-server",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.FastDfsProperties",
+      "defaultValue": "192.168.136.135:22122"
+    },
+    {
+      "name": "zy.upload.minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
+    },
+    {
+      "name": "zy.upload.minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
+    },
+    {
+      "name": "zy.upload.minio.end-point",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
+    },
+    {
+      "name": "zy.upload.minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
     }
   ],
   "hints": []
