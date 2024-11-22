@@ -336,7 +336,8 @@
     {
       "name": "zy.upload.minio.bucket-name",
       "type": "java.lang.String",
-      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties"
+      "sourceType": "com.example.zystarter.FileUploadConfig.MinioProperties",
+      "defaultValue": "files"
     },
     {
       "name": "zy.upload.minio.end-point",

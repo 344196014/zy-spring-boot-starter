@@ -14,6 +14,8 @@ com\example\zystarter\CacheConstants\CacheTypeEnum.class
 com\example\zystarter\CacheConfig\CacheSentinelConfig.class
 com\example\zystarter\FileUploadConfig\FastDfsProperties.class
 com\example\zystarter\FileUploadFactory\FileUploadException.class
+com\example\zystarter\FileUploadFactory\MinioUpload.class
 com\example\zystarter\FileUploadFactory\AbstractUpload.class
 com\example\zystarter\CacheConfig\RedisOperate.class
 com\example\zystarter\CacheConfig\CacheAutoConfiguration.class
+com\example\zystarter\FileUploadConfig\FileContentType.class

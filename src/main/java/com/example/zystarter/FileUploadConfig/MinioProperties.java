@@ -7,7 +7,7 @@ public class MinioProperties {
     private String endPoint;
     private String accessKey;
     private String secretKey;
-    private String bucketName;
+    private String bucketName = "files";
 
     public String getEndPoint() {
         return endPoint;
